@@ -1,0 +1,283 @@
+@import url(reset.css);
+/*request.css*/
+
+/*container*/
+.spot{
+    background: #c1c1c1;
+}
+.spot h2{
+    height: 130px;
+    line-height: 130px;
+    font-size: 30px;
+    padding-left: 20px;
+    color: #fff;
+    background: url(../images/bg_sub_visual3.gif) no-repeat 50% 0;
+}
+/*snb*/
+ul.nav li{
+    text-indent: 20px;
+}
+ul.nav>li>a{
+    display: block;
+    border-top: 1px solid #e2e2e2;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+}
+ul.nav li.now>a{
+    border-top: 0;
+    font-weight: bold;
+}
+ul.nav li.now ul {
+    padding: 15px 0;
+}
+ul.nav li.now ul li{
+    line-height: 180%;
+}
+li.now ul li.now_page a{
+    color: #e20026;
+}
+ul.nav li.last a{
+    background: url(../images/bul_lnb_close.png) no-repeat 205px 50%;
+}
+ul.nav li.last ul{
+    display: none;
+}
+/*content*/
+p.path{
+    text-align: right;
+    padding-top: 17px;
+}
+p.path a{
+    color: #666;
+}
+#content h3{
+    margin: 45px 0 50px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 25px;
+    color: #333;
+    font-weight: bold;
+}
+
+/*빠른상담*/
+ul.q_request li{
+    float: left;
+}
+ul.q_request li a{
+    display: block;
+    width: 330px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+ul.q_request li.aibril a{
+    border: 1px solid #ac0524;
+    background: #e0002a url(../images/aibril_ic.png) no-repeat 50px 50%;
+    margin-right: 10px;
+}
+ul.q_request li.cloudz a{
+    border: 1px solid #dd5900;
+    background: #e2772f url(../images/cloud_ic.png) no-repeat 33px 50%;
+}
+
+/*fieldset_request1*/
+fieldset.request1 {
+    width: 100%;
+}
+fieldset.request1 p.exlain{
+    margin: 25px 0 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    color: #666;
+}
+div.agree{
+    height: 150px;
+    padding: 10px;
+    overflow-y: scroll;
+    border: 1px solid #d0d0d0;
+    font-size: 12px;
+}
+div.agree{
+    color: #666;
+}
+div.agree dd.guide{
+    margin-bottom: 15px;
+}
+div.agree strong{
+    font-weight: bold;
+}
+div.agree table{
+    width: 100%;
+    margin: 7px 0;
+    color: #000;
+}
+div.agree th, div.agree td{
+    padding: 4px 0;
+    text-align: center;
+}
+div.agree th{
+    font-weight: bold;
+    background: #f4f0eb;
+    border: 1px solid #e6e6e6;
+    
+}
+div.agree td{
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+}
+div.agree .left{
+    border-left: 0;
+}
+div.agree .right{
+    border-right: 0;
+}
+
+fieldset.request1>p.agreechk{
+    margin-top: 15px;
+    font-size: 13px;
+}
+p.agreechk span{
+    margin-right: 15px;
+}
+p.agreechk input{
+    margin-left: 5px;
+}
+
+/*fieldset_request2*/
+.request2 h4, .request3 h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 42px 0 10px;
+    padding-bottom: 10px;
+}
+
+.request2 table, .request3 table{
+    width: 100%;
+}
+.request2 table input, .request2 table select, .request3 input{
+    margin: 8px 0;
+    height: 25px;
+    border: 1px solid #ccc;
+}
+.request2 th, .request2 td, .request3 th, .request3 td{
+    border-bottom: 1px solid #c4c4c4;
+}
+.request2 th, .request3 th{
+    width: 120px;
+    text-indent: 10px;
+    font-weight: bold;
+    background: #f9f9f9;
+}
+.request2 td, .request3 td{
+    padding-left: 8px;
+    color: #666;
+}
+.request2 td .name{
+    width: 270px;
+}
+.request2 td p{
+    padding-bottom: 8px;
+}
+.request2 .upline th, .request2 .upline td, .request3 .upline th, .request3 .upline td{
+    border-top: 2px solid #c4c4c4;
+}
+
+.request2 .downline th, .request2 .downline td, .request3 .downline th, .request3 .downline td{
+    border-bottom: 2px solid #c4c4c4;
+}
+
+/*request3*/
+.request3 label{
+    margin-right: 10px;
+}
+.request3 table{
+    margin-bottom: 10px;
+}
+.request3 .title{
+    width: 100%;
+}
+.request3 .downline td{
+    padding: 0;
+}
+.request3 textarea{
+    margin: 8px 0;
+    height: 222px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.request3 .tel{
+    float: left;
+    color: #666;
+}
+.tel strong{
+    padding-left: 10px;
+    background: url(../images/bul_star_gray.png) no-repeat 0 50%;
+    font-weight: bold;
+    color: #000;
+}
+.tel span{
+    display: block;
+    padding-top: 8px;
+}
+.tel span img{
+    margin-right: 3px;
+}
+.request3 .submit{
+    margin: 0;
+    width: 60px;
+    height: 35px;
+    float: right;
+    background: #e0002a;
+    border: 1px solid #ac0524;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 30px;
+    
+}
+.request3 .guide{
+    clear: both;
+    color: #666;
+    margin-bottom: 90px;
+}
+
+/*aside*/
+div.aside>ul>li{
+    padding: 30px 0;
+    border-bottom: 1px solid #dcdada;
+    text-align: center;
+}
+div.aside>ul>li>a{
+    padding-top: 55px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+li.center a{
+    background: url(../images/icon_aside1.png) no-repeat 50% 0;
+}
+li.certificate a{
+    background: url(../images/icon_aside2.png) no-repeat 50% 0;
+}
+li.recruit>a{
+    margin-bottom: 10px;
+    background: url(../images/icon_aside3.png) no-repeat 50% 0;
+}
+li.recruit ul{
+    padding-left: 15px;
+}
+li.recruit ul li{
+    padding-left: 10px;
+    text-align: left;
+    line-height: 150%;
+    background: url(../images/bul_article_s.gif) no-repeat 0 60%;
+}
+li.recruit ul li a{
+    font-size: 12px;
+    color: #666;
+}

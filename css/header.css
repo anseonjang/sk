@@ -1,0 +1,130 @@
+/*header.css*/
+#header .mid{
+    width: 960px;
+}
+/*header_top*/
+.header_top dl{
+    float: right;
+}
+.header_top dl dd{
+    float: left;
+}
+.header_top dl dd a{
+    display: block;
+    width: 77px;
+    height: 30px;
+    border-left: 1px solid #e2e2e2;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;    
+}
+.header_top dl dd a:hover{
+    background: #e20026;
+    color: #fff;
+}
+.header_top dl dd a.white{
+    color: #fff;
+}
+.header_top dl dd a.red{
+    background: #e20026;
+}
+.header_top dl dd a.gray{
+    background: #999;
+}
+.header_top dl dd a.gray:hover{
+    background: #888;
+}
+/*header_bt*/
+.header_bt .mid{
+    width: 880px;
+    height: 80px;
+}
+.header_bt .logo{
+    float: left;
+    line-height: 80px;
+}
+/*주메뉴*/
+ul.gnb{
+    float: left;
+    margin: 40px 0 0 80px;
+}
+ul.gnb>li{
+    float: left;
+    margin-right: 35px;
+    padding-right: 35px;
+    background: url(../images/bul_line1.gif)no-repeat 100% 50%;
+}
+ul.gnb>li.last{
+    background: none;
+}
+/*주메뉴-하위메뉴*/
+ul.gnb>li>ul{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 110px;
+    padding: 40px 0;
+    border-top: 1px solid #f6f6f6;
+    background: #fbfbfb;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    
+}
+ul.gnb li.mid{
+    width: 960px;
+    margin: 0 auto;
+}
+ul.gnb li.mid:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+ul.gnb>li>ul>li>ul{
+    width: 960px;
+    height: 100%;
+}
+li.midtitle{
+    float: left;
+    width: 150px;
+    margin-right: 30px;
+}
+li.midtitle>a{
+    font-weight: bold;
+    font-size: 15px;
+}
+li.midtitle ul{
+    margin-top: 5px;
+    border-top: 1px solid gray;
+}
+li.midtitle ul li a:hover{color: #e20026;}
+li.red{
+    height: 160px;
+    margin-right: 50px;
+}
+li.red>a{
+    font-weight: normal;    
+}
+li.red ul{
+    padding-top: 10px;
+    border-top: 1px solid #e20026;
+}
+li.midtitle ul li{
+    color: #666;
+    font-size: 13px;
+    line-height: 25px;
+}
+li.midtitle ul li a:hover{
+    color: #e20026;
+}
+li.red ul li{
+    line-height: 150%;
+}
+li.company_intro{
+    background: url(../images/img_introduction.png)no-repeat 100% 100%;
+}
+li.busin_intro{
+    background: url(../images/img_industry.png)no-repeat 100% 100%;
+}
+li.sitemap{
+    margin-top: 30px;
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>1:1 상담 | SK주식회사 C&amp;C</title>
+    <link rel="stylesheet" href="css/import.css">
+    <link rel="stylesheet" type="text/css" href="css/request.css">
+    <script src="js/gnb.js"></script>
+</head>
+<body>
+<!--바로가기-->
+<div id="skipNavi">
+    <ul>
+    <li><a href="#gnb">주메뉴 바로가기</a></li>
+    <li><a href="#container">본문 바로가기</a></li>
+    </ul>
+</div>
+<hr />
+<div id="wrap">
+<!--header-->
+<? include "header.html"; ?>
+<!--//header-->
+    <hr />
+    <!--container-->
+    <div id="container">
+       <div class="spot">
+            <div class="mid">
+                <h2>고객센터</h2>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="snb">
+                <ul class="nav">
+                <li class="now"><a href="#">1:1 상담신청</a></li>
+                <li><a href="#">퇴직자 증명서 신청</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">찾아오시는길</a></li>
+                <li><a href="#">사이트맵</a></li>
+                </ul>
+            </div>
+            <!--//snb-->
+            <div id="content">
+                <p class="path"><a href="#" title="홈페이지 바로가기">HOME</a> &gt; <a href="#">고객센터</a> &gt; 1:1 상담신청</p>
+                <h3>1:1 상담신청</h3>
+                <ul class="q_request">
+                <li class="aibril"><a href="#">AIBRIL 관련 빠른 상담</a></li>
+                <li class="cloudz"><a href="#">CLOUD Z 관련 빠른 상담</a></li>
+                </ul>
+                <form action="#" method="post">
+                    <fieldset class="request1">
+                    <legend class="blind">개인정보 수집&middot;이용 안내</legend>
+                        <p class="exlain">SK주식회사 C&amp;C (이하 "주식회사 C&amp;C" 또는 "회사"라 함)는 1:1 상담 신청 관련 업무 처리를 위해 최소한의 개인 정보만을 수집&middot;이용 하고자 합니다. 이에 하기 내용을 자세히 읽으신 후 동의 여부를 결정하여 주시기 바랍니다.</p>
+                        <div class="agree">
+                            <dl>
+                            <dt>■ 개인정보의 수집&middot;이용 동의(필수 사항)</dt>
+                            <dd>
+                                <table><!-- summary="개인정보의 수집·이용에 대한 설명"-->
+                                <caption class="blind">개인정보의 수집·이용 항목과 목적, 보유기간</caption>
+                                <thead>
+                                <tr>
+                                <th scope="col" class="left">수집&middot;이용 목적</th>
+                                <th scope="col">수집&middot;이용 항목</th>
+                                <th scope="col">보유 기간</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                <td class="left"><strong>1:1 상담 신청에 대한 처리</strong></td>
+                                <td>이름, 연락처, 이메일</td>
+                                <td class="right">1년</td>
+                                </tr>
+                                </tbody>
+                                </table>
+                            </dd>
+                            <dd class="guide">※ 위의 개인정보 수집&middot;이용에 대한 동의를 거부할 권리가 있습니다. 그러나 필수 정보에 대한 동의를 거부할 경우 1:1 상담 신청 서비스 제공이 제한될 수 있습니다.</dd>
+                            <dt>■ 개인정보 처리 위탁</dt>
+                            <dd>
+                                <table><!-- summary="개인정보 처리 위탁에 대한 설명"-->
+                                <caption class="blind">개인정보 처리 위탁 업체와 업무 내용</caption>
+                                <thead>
+                                <tr>
+                                <th scope="col" class="left">처리 위탁 받는 자(수탁 업체)</th>
+                                <th scope="col">처리 위탁 업무 내용</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                <td class="left"><strong>행복 ICT</strong></td>
+                                <td class="right">홈페이지 운영 및 관리</td>
+                                </tr>
+                                </tbody>
+                                </table>
+                            </dd>
+                            <dd class="guide">※ 개인정보 처리 위탁에 대해 필요한 경우 일부 또는 전부를 위의 업체에 위탁할 수 있음을 안내합니다.</dd>
+                            </dl>
+                        </div>
+                        <p class="agreechk">
+                            <span>개인정보 수집&middot;이용(필수 항목) 하는데 동의하십니까?</span>
+                            <input type="radio" name="inform" id="agree" /><label for="agree">예</label>
+                            <input type="radio" name="inform" id="disagree" /><label for="disagree">아니오</label>
+                        </p>
+                    </fieldset>
+                    <fieldset class="request2">
+                    <legend class="blind">상담신청</legend>
+                        <h4>상담신청</h4>
+                        <table><!-- summary="상담신청 입력란"-->
+                        <caption class="blind">상담신청 입력</caption>
+                        <tbody>
+                        <tr class="upline">
+                        <th scope="row">
+                            <img src="images/bul_star_red.png" alt="필수">
+                            <label for="business">문의사업장</label>
+                        </th>
+                        <td>
+                            <select id="business">
+                                <option value="ai">인공지능</option>
+                                <option value="cloud">클라우드</option>
+                                <option value="smartfactory">스마트팩토리</option>
+                                <option value="bigdata">빅데이터</option>
+                                <option value="mtdistrib">용합물류</option>
+                                <option value="bizroad">BizRoad</option>
+                                <option value="mtworks">mTworks</option>
+                                <option value="dtpoc">DT PoC</option>
+                                <option value="etc">기타</option>
+                            </select>
+                        </td>
+                        </tr>
+                        <tr>
+                        <th scope="col">
+                            <img src="images/bul_star_red.png" alt="필수">
+                            <label for="name">이름</label>
+                        </th>
+                        <td>
+                            <input type="text" id="name" class="name">
+                        </td>
+                        </tr>
+                        <tr>
+                        <th scope="col">
+                            <img src="images/bul_star_red.png" alt="필수">
+                            <label for="tel">연락처</label>
+                        </th>
+                        <td>
+                            <input type="text" id="tel"> - <input type="text" title="연락처 중간자리"> - <input type="text" title="연락처 마지막 자리">
+                        </td>
+                        </tr>
+                        <tr class="downline">
+                        <th scope="col">
+                            <img src="images/bul_star_red.png" alt="필수">
+                            <label for="email">이메일</label>
+                        </th>
+                        <td>
+                            <input type="email" id="email"> @ <input type="email">
+                            <p>이메일을 통해 답변해 드리오니 이메일 주소를 정확히 입력해 주세요.</p>
+                        </td>
+                        </tr>
+                        </tbody>
+                        </table>
+                    </fieldset>
+                    <fieldset class="request3">
+                    <legend class="blind">상담내용</legend>
+                        <h4>상담내용</h4>
+                        <table><!-- summary="상담내용 입력란"-->
+                        <caption class="blind">상담내용 입력</caption>
+                        <tbody>
+                        <tr class="upline">
+                        <th scope="row">
+                            <img src="images/bul_star_red.png" alt="필수">
+                            <span>상담유형</span>
+                        </th>
+                        <td>
+                            <input type="radio" name="type" id="inquiry"><label for="inquiry">문의</label>
+                            <input type="radio" name="type" id="suggest"><label for="suggest">제안</label>
+                            <input type="radio" name="type" id="complain"><label for="complain">불만</label>
+                            <input type="radio" name="type" id="others"><label for="others">기타</label>
+                        </td>
+                        </tr>
+                        <tr>
+                        <th scope="row">
+                            <img src="images/bul_star_red.png" alt="필수">
+                            <label for="title">제목</label>
+                        </th>
+                        <td>
+                            <input type="text" id="title" class="title">
+                        </td>
+                        </tr>
+                        <tr class="downline">
+                        <td colspan="2">
+                            <textarea id="cnt" cols="20" rows="10"></textarea>
+                        </td>
+                        </tr>
+                        </tbody>
+                        </table>
+                        <p class="tel">
+                            <strong>대표전화</strong> : 02-6400-0114
+                            <span><img src="images/bul_star_red.png" alt="필수입력표시">사항은 필수 입력 사항입니다. 반드시 기입해 주세요.</span>
+                        </p>
+                        <input type="submit" value="확인" class="submit">
+                        <p class="guide">
+                            [안내] 서비스 보안 강화로 사용 웹브라우저는 'Chome 30, IE 11, Firefox 27 버전 이상, Mobile은 Safari 5, Mac의 경우 Safari ver.7 이후부터 가능합니다. 안전한 사용을 위해 최신 브라우저 업데이트 설치를 권장합니다. 
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--//content-->
+        </div>
+        <div class="aside">
+            <ul>
+            <li class="center"><a href="#">고객센터</a></li>
+            <li class="certificate"><a href="#">퇴직자증명서</a></li>
+            <li class="recruit">
+                <a href="#">Recruit</a>
+                <ul>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">입사지원</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <!--//container-->
+    <hr />
+    <!--footer-->
+    <? include "footer.html"; ?>
+    <!--//footer-->
+    </div>
+</body>
+</html>

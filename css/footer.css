@@ -1,0 +1,71 @@
+/*footer.css*/
+/*foot_top*/
+.foot_top ul li{
+    float: left;
+    font-weight: bold;
+    padding-right: 8px;
+    margin-top: 5px;
+    margin-right: 8px;
+    font-size: 12px;
+    background: url(../images/bul_line2.gif)no-repeat 100% 50%;
+}
+.foot_top ul li a{
+    color: #666;
+}
+.foot_top ul li.foot_red a{
+    color: #e50030;
+}
+.foot_top ul li.last{
+    background: none;
+}
+/*sns*/
+p.sns a{
+    display: block;
+    width: 27px;
+    height: 27px;
+    margin-right: 5px;
+    float: left;
+    background: url(../images/icon_social.png)no-repeat 0 -37px;
+}
+p.sns a.skblog{
+    background-position: -37px 0;
+}
+p.sns a.skyoutube{
+    background-position: -37px -37px;
+}
+/*패밀리사이트*/
+.foot_top select{
+    display: block;
+    float: right;
+    width: 125px;
+    height: 25px;
+    border: 1px solid #e2e2e2;
+    padding-left: 10px;
+    margin-top: 1px;
+    line-height: 23px;
+    color: #666;
+}
+/*foot_bt*/
+p.foot_logo{
+    float: left;
+    margin-right: 100px;
+}
+.foot_bt address{
+    float: left;
+    margin-top: 10px;
+    color: #666;
+    font-size: 12px;
+}
+p.copy{
+    margin-top: 4px;
+}
+ul.mark{
+    margin-top: 10px;
+    float: right;
+}
+ul.mark li{
+    float: left;
+    margin-left: 18px;
+}
+
+ul.mark li:last-child img{width: 37px;}

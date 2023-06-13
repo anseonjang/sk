@@ -1,0 +1,6 @@
+/* import .css */
+
+@import url(reset.css?ver=1);
+@import url(layout.css?ver=2);
+@import url(header.css?ver=4);
+@import url(footer.css?ver=1);

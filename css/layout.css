@@ -1,0 +1,134 @@
+/*layout.css*/
+
+/*main*/
+
+/*common*/
+body{
+    font-size: 13px;
+    font-family: "Malgun Gothic", MalgunGothic, 돋움, Helvetica, Arial, sans-serif;
+    color: #333;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.mid{
+    width: 960px;
+    margin: 0 auto;
+}
+/*layout*/
+#wrap{
+    width: 100%; 
+}
+    #header{
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        height: 110px;
+        z-index: 30;
+        background: #fbfbfb;
+        border-bottom: 1px solid #ddd;
+        transition: all 0.5s ease-in-out;
+    }
+        .header_top{
+            width: 100%;
+            height: 30px;
+            border-bottom: 1px solid #f6f6f6;
+            background: #fbfbfb;
+        }
+        .header_bt{
+            width: 100%;
+            height: 80px;
+            background: #fff;
+        }
+    #container{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        padding-top: 110px;
+    }
+    #container:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+        .spot{
+            width: 100%;
+        }
+        .snb{
+            float: left;
+            width: 220px;
+            margin-right: 60px;
+        }
+        .aside{
+            float: right;
+            width: 130px;
+            height: 100%;
+            border-left: 1px solid #dcdada;
+        }
+        .banner{
+            position: relative;
+            width: 300%;
+            height: 400px;
+            background: #fbfbfb;
+            left: 0;
+            transition: left 0.8s ease-in-out;
+        }
+        .banner:after{content: ""; display: block; clear: both;}
+        #content{
+            float: left;
+            width: 678px;   
+        }
+        .content1{
+            width: 100%;
+            padding: 61px 0;
+        }
+        .content1:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .content2{
+            width: 100%;
+            padding: 70px 0;
+            background: #e74143;
+        }
+        .content2:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .content3{
+            width: 100%;
+            padding-bottom: 80px;
+            background: #fbfbfb;
+        }
+        .content3:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+    #footer{
+        width: 100%;
+        height: 160px;
+        border-top: 1px solid #e2e2e2;
+    }
+        .foot_top{
+            width: 100%;
+            padding: 15px 0;
+        }
+        .foot_top:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .foot_bt{
+            width: 100%;
+            padding: 20px 0;
+            border-top: 1px solid #e2e2e2;
+        }
+        .foot_bt:after{
+            content: "";
+            display: block;
+            clear: both;
+        }

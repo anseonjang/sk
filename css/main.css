@@ -1,0 +1,235 @@
+@import url(reset.css);
+/*main.css*/
+
+/*container*/
+/*배너*/
+.banner>section{
+    float: left;
+    width: 33.333%;
+    height: 398px;
+    z-index: 1;
+}
+.banner>section h3{
+    font-size: 40px;
+    color: #000;
+    font-weight: bold;
+    margin: 100px 0 15px 0;
+}
+
+.banner>section:nth-of-type(1){background: url(../images/img_visual.jpg) no-repeat 50% 0;}
+.banner>section:nth-of-type(2){background: url(../images/img_visual2.jpg) no-repeat 50% 0;}
+.banner>section:nth-of-type(3){background: url(../images/img_visual3.jpg) no-repeat 50% 0;}
+
+.arrow{position: absolute; top: 460px; width: 100%;}
+.arrow>li>ul>li>a{z-index: 3; display: block; float: left; margin-right: 6px;
+    width: 29px; height: 29px; text-indent: -9999px;
+    overflow: hidden;
+    background: url(../images/bg_visual_controls.png) no-repeat 0 0;}
+.arrow>li>ul>li.play>a{background-position: -35px 0;}
+.arrow>li>ul>li.play.on>a{background-position: -101px 0;}
+.arrow>li>ul>li.next>a{background-position: -70px 0;}
+/*content1*/
+.content1 h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+.content1 dt{
+    font-size: 17px;
+    font-weight: bold;
+    color: #e50030;
+    margin-bottom: 7px;
+}
+.content1 dd{
+    font-size: 15px;
+}
+.content1 .menu_title strong{
+    position: relative;
+    left: 20px;
+    top: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.content1 .gray strong{
+    color: #7b7b7b;
+}
+.content1 .white strong{
+    color: #fff;
+}
+.content1 p.more{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+div.bussiness{
+    position: relative;
+    float: left;
+    width: 393px;
+    height: 271px;
+    background: url(../images/img_bussiness.png) no-repeat 50% 100%;
+}
+div.service{
+    position: relative;
+    float: right;
+    width: 393px;
+    height: 271px;
+    background: url(../images/img_services.png) no-repeat 50% 100%;
+}
+/*content2*/
+.content2 h2{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.content2 h2 span{
+    display: block;
+    font-size: 17px;
+}
+.content2 ul{
+    
+}
+.content2 ul li{
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.content2 ul li a{
+    padding: 120px 15px 0;
+    height: 90px;
+    margin: 0 auto;
+    display: block;
+}
+.content2 ul li strong{
+    display: block;
+    font-size: 20px;
+    color: #fff;
+}
+.content2 ul li span{
+    display: block;
+    font-size: 12px;
+    margin-top: 12px;
+    color: #fff;
+}
+.content2 ul li.ai a{
+    background: url(../images/img_solution_ai.png) no-repeat 50% 0;
+}
+.content2 ul li.cloud a{
+    background: url(../images/img_solution_cloud.png) no-repeat 50% 0;
+}
+.content2 ul li.smart_factory a{
+    background: url(../images/img_solution_factory.png) no-repeat 50% 0;
+}
+.content2 ul li.big_data a{
+    background: url(../images/img_solution_bigdata.png) no-repeat 50% 0;
+}
+
+/*content3*/
+.content3 h2{
+    padding: 60px 0 40px;
+    font-size: 30px;
+    text-align: center;
+}
+.content3 h3{
+    margin: 25px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.content3 span{
+    display: block;
+    font-size: 17px;
+}
+.content3 p.more{
+    position: absolute;
+    right: 37px;
+    top: 25px;
+}
+
+/*유튜브*/
+div.utube{
+    position: relative;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    margin-bottom: 40px;
+}
+div.utube:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+div.utube h3{
+    text-align: center;
+}
+div.utube ul li{
+    position: relative;
+    float: left;
+    width: 250px;
+    padding: 0 34px;
+}
+div.utube ul li.first:after{
+    display: none;
+}
+div.utube ul li:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 185px;
+    background: #e5e5e5;
+}
+div.utube ul li a{display: block; position: relative;}
+div.utube ul li a:before{content: "";
+    background: url(../images/btn_youtube_off.png) no-repeat 50% 50%;
+    width: 47px; height: 33px; position: absolute; 
+    left: 50%; top: 50%; transform: translate(-50%,-50%);}
+div.utube ul li a:hover:before{
+    background-image: url(../images/btn_youtube_on.png);}
+div.utube ul li span{
+    margin: 20px 0 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+/*뉴스*/
+div.news{
+    position: relative;
+    float: left;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    width: 390px;
+    height: 350px;
+    padding: 0 35px 30px;
+}
+div.news dl,div.blog dl{
+    width: 390px;
+    height: 160px;
+    background: url(../images/skcc_news.jpg) no-repeat 50% 0;
+}
+div.blog dl{
+    background: url(../images/skcc_blog.jpg) no-repeat 50% 0;
+}
+div.news dt,div.blog dt {
+    padding-top: 180px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    padding-bottom: 10px;
+}
+div.news dd,div.blog dd{
+    display: inline;
+    color: #666;
+}
+/*블로그*/
+div.blog{
+    position: relative;
+    float: right;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    width: 390px;
+    height: 350px;
+    padding: 0 35px 30px;
+}

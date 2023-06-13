@@ -1,0 +1,219 @@
+@import url(reset.css);
+/*news.css*/
+
+/*container*/
+/*spot*/
+.spot{
+    background: #949494;
+}
+.spot h2{
+    height: 130px;
+    line-height: 130px;
+    font-size: 30px;
+    padding-left: 20px;
+    color: #fff;
+    background: url(../images/bg_sub_visual4.gif)no-repeat 50% 0;
+}
+/*snb*/
+ul.nav li{
+    text-indent: 20px;
+}
+ul.nav>li>a{
+    display: block;
+    border-top: 1px solid #e2e2e2;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+}
+ul.nav li.now>a{
+    border-top: 0;
+    border-bottom: 1px solid #e2e2e2;
+    font-weight: bold;
+    background: url(../images/bul_lnb_open.png)no-repeat 205px 50%;
+}
+ul.nav li.now ul {
+    padding: 15px 0;
+}
+ul.nav li.now ul li{
+    line-height: 180%;
+}
+li.now ul li.now_page a{
+    color: #e20026;
+}
+ul.nav li.last a{
+    background: url(../images/bul_lnb_close.png)no-repeat 205px 50%;
+}
+ul.nav li.last ul{
+    display: none;
+}
+/*content*/
+p.path{
+    text-align: right;
+    padding-top: 17px;
+}
+p.path a{
+    color: #666;
+}
+#content h3{
+    margin: 45px 0 50px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 25px;
+    color: #333;
+    font-weight: bold;
+}
+/*뉴스메인*/
+div.news_main{
+    border: 1px solid #e1e1e1;
+    padding: 15px 30px;
+    background: #fdfdfd;
+    margin-bottom: 40px;
+}
+div.news_main:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+div.news_main p img{
+    float: left;
+}
+div.news_main dl{
+    float: right;
+    width: 350px;
+}
+div.news_main dl dt{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+}
+div.news_main dl dd{
+    color: #666;
+    line-height: 20px;
+}
+
+/*검색*/
+#content form{
+    text-align: right;
+    margin-bottom: 10px;
+}
+select#srch {
+    width: 76px;
+    height: 27px;
+    border: 1px solid #e1e1e1;
+    color: #666;
+    margin-right: 6px;
+}
+input.srch_txt{
+    width: 216px;
+    height: 25px;
+    border: 1px solid #aaa;
+    font-size: 12px;
+    color: #666;
+    padding-left: 8px;
+    margin-right: 6px;
+}
+input.srch_button{
+    width: 60px;
+    height: 27px;
+    background: #696969;
+    color: #fff;
+    border: 1px solid #535353;
+    font-size: 14px;
+}
+
+/*뉴스목록*/
+table{
+    width: 100%;
+    color: #666;
+}
+table th{
+    padding: 13px 10px;
+    border-top: 2px solid #bababa;
+    border-bottom: 1px solid #cfcfcf;
+    background: #f9f9f9;
+    text-align: center;
+    font-size: 14px;
+}
+table th.num {
+    padding: 15px 20px;
+}
+table td{
+    border-bottom: 1px solid #dfdfdf;
+    line-height: 43px;
+    padding: 0 10px;
+}
+table td.num{
+    padding: 0 25px;
+}
+
+/*목록버튼*/
+p.list_num{
+    margin: 30px 0 85px 95px;
+    text-align: center;
+}
+p.list_num *{
+    float: left;
+}
+p.list_num a{
+    display: block;
+    width: 26px;
+    height: 25px;
+    margin-right: 5px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+}
+p.list_num .left_list a,p.list_num .right_list a{
+    border: 1px solid #c8c8c8;
+}
+p.list_num .number{
+    display: block;
+    margin: 0 15px;
+}
+p.list_num .number a.now_list{
+    border: 1px solid #ac0524;
+    color: #fff;
+    background: #e0002a;
+    font-weight: bold;
+}
+p.list_num:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*aside*/
+div.aside>ul>li{
+    padding: 30px 0;
+    border-bottom: 1px solid #dcdada;
+    text-align: center;
+}
+div.aside>ul>li>a{
+    padding-top: 55px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+li.center a{
+    background: url(../images/icon_aside1.png)no-repeat 50% 0;
+}
+li.certificate a{
+    background: url(../images/icon_aside2.png)no-repeat 50% 0;
+}
+li.recruit>a{
+    margin-bottom: 10px;
+    background: url(../images/icon_aside3.png)no-repeat 50% 0;
+}
+li.recruit ul{
+    padding-left: 15px;
+}
+li.recruit ul li{
+    padding-left: 10px;
+    text-align: left;
+    line-height: 150%;
+    background: url(../images/bul_article_s.gif)no-repeat 0 60%;
+}
+li.recruit ul li a{
+    font-size: 12px;
+    color: #666;
+}
